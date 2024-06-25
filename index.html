@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple WebXR Demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /* Style for the buttons */
+      button {
+        background-color: blue;
+        color: white;
+        font-size: 24px;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 4px;
+        margin: 20px;
+        cursor: pointer;
+      }
+      
+      /* Style for the logo */
+      #logo {
+        float: right;
+        margin-right: 20px;
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+      }
+      
+      /* Style for the footer */
+      footer {
+        text-align: center;
+        margin-top: 50px;
+      }
+      
+      /* Style for the email link */
+      footer a {
+        color: blue;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to this simple WebXR demo!</h1>
+    <p>Click on one of the buttons below to check the two demos:</p>
+    <img src="https://www.hft-stuttgart.de/typo3conf/ext/hft_sitepackage/Resources/Public/img/HFT_logo.svg" alt="HfT Stuttgart" id="logo">
+    <button onclick="location.href='1-Cube.html'">Cube demo</button>
+    <button onclick="location.href='2-Hit.html'">Tap to Place Demo</button>
+    <p> You can follow this <a href="https://transfer.hft-stuttgart.de/gitlab/coors/visualization/-/wikis/Create-a-simple-web-AR-application">tutorial</a> to create a similar WebXR app.</p>
+    <footer>&copy; HfT Stuttgart. Contact <a>Mohammad Shariful Islam & Abdul Khaliq Rasa</a>.</footer>
+  </body>
+</html>
